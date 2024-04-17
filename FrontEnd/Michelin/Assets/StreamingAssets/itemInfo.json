@@ -1,0 +1,59 @@
+{
+    "weapon":[
+        {
+        "itemName": "낡은 주방칼",
+        "itemCode": "wp001",
+        "itemDescription": "낡은 칼이다.",
+        "itemImg":"../images/wp001.png"
+        },
+        {
+        "itemName": "단단한칼",
+        "itemCode": "wp002",
+        "itemDescription":"단단하고 묵직한 칼이다.",
+        "itemImg":"../images/wp002.png"
+        }
+    ],
+    "vehicle": [
+        {
+        "itemName": "비실비실한 조랑말",
+        "itemCode": "vh001",
+        "itemDescription":"곧 죽을것같다",
+        "itemImg":"../images/vh001.png"
+        },
+        {
+        "itemName": "튼튼한 말",
+        "itemCode": "vh002",
+        "itemDescription":"건강을 되찾은 건강한 말이다.",
+        "itemImg":"../images/vh002.png"
+        }
+    ],
+
+    "ingredients":[
+        {
+            "itemName": "돼지고기",
+            "itemCode": "ig001",
+            "itemDescription":"야생돼지(들개 절대 아님)의 고기.",
+            "itemImg":"../images/ig001.png"
+        },
+        {
+            "itemName": "배추",
+            "itemCode": "ig002",
+            "itemDescription":"맛있는 배추. 김치의 주재료이다.",
+            "itemImg":"../images/ig002.png"
+        }
+    ],
+    "recipes":[
+        {
+            "itemName": "김치",
+            "itemCode": "rp001",
+            "itemDescription":"[초급요리-김치]의 레시피",
+            "itemImg":"../images/rp001.png"
+        },
+        {
+            "itemName": "김치찌개",
+            "itemCode": "rp002",
+            "itemDescription":"[초급요리-김치찌개]의 레시피",
+            "itemImg":"../images/rp001.png"
+        }
+    ]   
+}

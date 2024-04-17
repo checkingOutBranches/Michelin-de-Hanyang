@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98cf2f2b13ff0ff4d97bcb644d6259a7, type: 3}
+  m_Name: "\uB3C4\uD1A0\uB9AC\uBB35"
+  m_EditorClassIdentifier: 
+  Level: 1
+  Food: {fileID: 21300000, guid: ee2662ff53e9d504c95874c548de32f5, type: 3}
+  Name: "\uB3C4\uD1A0\uB9AC\uBB35"
+  Ingredient: "\uB3C4\uD1A0\uB9AC"
+  recipe: {fileID: 11400000, guid: 539762d62132ce44e8685bc67584de61, type: 2}
+  recipeDetail: []
+  ig_list: []
+  Process1: "\uD638\uBC15 \uAC08\uB77C\uC11C \uC528 \uBE7C\uB0B4\uAE30"
+  Process2: "\uD638\uBC15 \uC790\uB974\uAE30"
+  Process3: "\uC0B6\uC73C\uBA74\uC11C \uBB3C, \uCC39\uC300\uAC00\uB8E8, \uAFC0, \uC18C\uAE08
+    \uB123\uACE0 \uB053\uC774\uAE30 "
+  Process4: 
+  Process5: 
+  Process6: 
+  Process7: 

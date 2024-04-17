@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53da5833535fcf244b3967c93ebc4eea, type: 3}
+  m_Name: Cellophane Noodles
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6758374825455766935, guid: 330ff7ed4908ed4408222d05f134d3fe, type: 3}
+  icon: {fileID: 21300000, guid: e1cfde52c2a386f4f95af1341af4cb2e, type: 3}
+  itemName: "\uB2F9\uBA74"

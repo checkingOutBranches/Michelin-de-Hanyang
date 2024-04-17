@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53da5833535fcf244b3967c93ebc4eea, type: 3}
+  m_Name: Bracken
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1928604086531865059, guid: 81668ba6b1b392640bd03f4acca644b9, type: 3}
+  icon: {fileID: 1902981634, guid: 26aa4d2240f4e2a4588f40e62d25adef, type: 3}
+  itemName: "\uACE0\uC0AC\uB9AC"

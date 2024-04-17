@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68c16681-1b13-4daa-b50a-17ff88430e13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/michelin_de_hanyang/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/michelin_de_hanyang/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/michelin_de_hanyang/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/michelin_de_hanyang/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/michelin_de_hanyang/src/main/java/com/ssafy/michelin_de_hanyang/domain/user/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/michelin_de_hanyang/src/main/java/com/ssafy/michelin_de_hanyang/domain/user/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/michelin_de_hanyang/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/michelin_de_hanyang/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2dOckxOWfyy68YtdQGFaOyw0n75" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/back/byunghyun",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/bb05q/OneDrive/바탕 화면/S10P22A609/BackEnd/michelin_de_hanyang",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68c16681-1b13-4daa-b50a-17ff88430e13" name="Changes" comment="" />
+      <created>1709882712091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709882712091</updated>
+      <workItem from="1709882713155" duration="2000" />
+      <workItem from="1711326513284" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

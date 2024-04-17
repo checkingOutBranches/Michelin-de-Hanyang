@@ -1,0 +1,73 @@
+.ranking-container {
+  background-image: url('../Assets/Images/RankingFrame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1211px;
+  height: 760px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative; /* Needed to position the inner container correctly */
+}
+
+.ranking-inner-container {
+  position: relative; /* Make the container fit inside the frame */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  bottom: 0;
+  overflow-y: auto; /* Add scroll to the inner container */
+  padding: 20px; /* Adjust padding to avoid content touching the borders */
+}
+
+.ranking-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.ranking-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rank {
+  width: 50px;
+  text-align: center;
+}
+
+.tabs {
+  position: relative;
+  top: -20px;
+  z-index: 2;
+}
+
+.name {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.level, .quest-success {
+  margin-left: 10px; /* Added spacing for level and quest-success */
+}
+
+.score-bar {
+  height: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.rankingtabs button {
+  background-color: #5b5b62;
+  color: white;
+  font-family: "ChosunCentennial_ttf";
+  border: none;
+  padding: 10px 50px;
+  margin: 20px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}

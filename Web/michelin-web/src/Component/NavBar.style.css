@@ -1,0 +1,54 @@
+.navbar {
+    overflow: hidden;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10vw;
+}
+
+.nav-links li {
+    margin-right: 0.2vw; /* 오른쪽 마진 값을 줄임 */
+}
+
+.nav-links li:last-child {
+    margin-right: 0; /* 마지막 항목의 오른쪽 마진 제거 */
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px; /* 텍스트 크기를 줄임 */
+}
+
+.nav-links li a:hover {
+    background-color: #090d37c9;
+
+}
+
+.nav-item {
+    background-image: url('../Assets/Images/Frame2.png');
+    background-size: 8vw 4.5vh; /* 이미지의 크기를 60px x 60px로 고정 */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 8.5vw; /* 네비게이션 항목의 너비를 설정 */
+    height: 5vh; /* 네비게이션 항목의 높이를 설정 */
+
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,1 @@
+{"money":192000,"invenArrayNumber":[0,1,2,3],"invenItemCode":["ig027","ig033","ig038","ig017"],"invenItemCount":[4,10,10,10],"weapon":"","vehicle":""}

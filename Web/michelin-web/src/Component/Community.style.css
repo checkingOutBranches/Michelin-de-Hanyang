@@ -1,0 +1,72 @@
+.game-guide-container {
+  background-image: url('../Assets/Images/CommunityBoard.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1211px;
+  height: 760px;
+  padding: 20px;
+  margin: 0 auto;
+  overflow-y: auto; 
+  z-index: 2; /* Higher z-index to ensure navbar is clickable */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posts-container,
+.post-creation-form {
+  width: 1000px;
+  z-index: 2; /* Ensure clickable */
+  height: 600px;
+}
+.posts-wrapper {
+  max-height: 1200px; /* 또는 적절한 높이 */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px; /* 필요하다면 조절 */
+  z-index: 2;
+}
+.post {
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 2; /* Ensure clickable */
+}
+
+.post-creation-form input,
+.post-creation-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  z-index: 2; /* Ensure clickable */
+
+}
+
+.btn {
+  width: calc(50% - 5px); /* Adjust width to fit side by side, accounting for margin */
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: #23629F;
+  z-index: 2; /* Ensure clickable */
+
+}
+
+.btn-cancel {
+  background-color: #BF291B; 
+  z-index: 2; /* Ensure clickable */
+
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}

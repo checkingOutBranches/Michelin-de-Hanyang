@@ -1,0 +1,44 @@
+{
+    "money": 14000,
+    "weapon":[
+        {
+        "itemCode": "wp001",
+        "count": 1
+        },
+        {
+        "itemCode": "wp002",
+        "count": 1
+        }
+    ],
+    "vehicle": [
+        {
+        "itemCode": "vh001",
+        "count": 1
+        },
+        {
+        "itemCode": "vh002",
+        "count": 1
+        }
+    ],
+
+    "ingredients":[
+        {
+            "itemCode": "ig001",
+            "count": 0
+        },
+        {
+            "itemCode": "ig002",
+            "count": 0
+        }
+    ],
+    "recipes":[
+        {
+            "itemCode": "rp001",
+            "count": 1
+        },
+        {
+            "itemCode": "rp002",
+            "count": 1
+        }
+    ]   
+}

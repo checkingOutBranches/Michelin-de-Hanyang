@@ -1,0 +1,146 @@
+.post-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin:  auto;
+  width: 1000px; /* Adjust based on your design needs */
+  height: auto; /* Adjust based on your design needs */
+}
+
+.post-details-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 30px 20px 40px;
+  margin: auto;
+  border-radius: 8px;
+  width: 1328px;
+  height: 675px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+
+  
+.post-details-container p {
+  line-height: 1.5; /* Line height for better readability */
+  margin-bottom: 20px; /* Space below the content */
+}
+  
+.post-details-container button {
+  background-color: #000; /* Button color */
+  color: #fff; 
+  border: none;
+  padding: 10px 20px 30px; /* Padding inside the button */
+  cursor: pointer; /* Cursor to pointer to indicate it's clickable */
+  border-radius: 5px; /* Rounded corners for the button */
+  font-size: 16px; /* Text size inside the button */
+  margin-bottom: 20px; /* Space below the button */
+}
+  
+.post-details-container button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Button hover color */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.content-container {
+  max-height: calc(675px - 200px); /* Adjust based on your design needs and padding */
+  
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.comments-section{
+  width: 700px;
+  margin: 0 auto; /* 폼을 중앙에 배치 */
+  padding-bottom: 100px;
+}
+
+.author-details {
+  font-size: 14px; /* Smaller font size for author details */
+}
+
+.content-container p {
+  font-size: 22px; /* Increased font size for content */
+  color: #ddd; /* Lighter text color for better readability */
+  padding: 10px; /* Add some padding around the text */
+}
+.comment {
+  background-color: #222; /* Slight background for comments for distinction */
+  padding: 10px; /* Padding inside each comment */
+  margin-bottom: 15px; /* Increase space between comments */
+  border-radius: 5px; /* Rounded corners for comments */
+}
+.comment-author {
+  font-weight: bold;
+  color: #f9f9f9; /* Brighter text color for the author */
+}
+  
+.comment-content {
+  font-size: 18px; /* Increased font size for comment content */
+  color: #ccc; /* Lighter text color for comments */
+  margin-left: 20px; /* Maintain indent for readability */
+  margin-top: 5px; /* Space between author and content */
+}
+  
+.comment-date {
+  font-size: 12px; /* Smaller font size for the date */
+  color: #aaa; /* Grey out the date for less prominence */
+  margin-bottom: 5px; /* Space above the comment content */
+}
+  .comment-separator {
+    border: 0;
+    height: 2px; /* Thicker line */
+    background: #ffffff;
+    width: 800px; /* Line width set to 800px */
+    margin: 20px auto; /* Center the line */
+  }
+  
+  .review-intro {
+    font-size: 18px; /* Font size for review intro */
+    margin-top: 10px; /* Space above the reviews */
+  }
+
+  
+  .reply-form {
+    width: 70%; /* 폼의 너비를 80%로 조정 */
+    margin: 0 auto; /* 폼을 중앙에 배치 */
+  }
+
+  .reply-form button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    margin-top: 5px; /* Space above the button */
+    background-color: #333; /* Darker background for the button */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners for the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+
+  .reply-form button:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+  }
+
+.button-row {
+  display: flex;
+  justify-content: center; /* 버튼 사이에 공간을 균등하게 배분 */
+  margin-top: 10px; /* 상단 여백 추가 */
+}
+.post-details-container button.save-cancel-btn {
+  width: 20%; /* 버튼 너비를 폼 전체로 설정 */
+  padding: 10px; /* 패딩 설정 */
+  margin-top: 5px; /* 상단 여백 설정 */
+  margin-left: 5px; /* 상단 여백 설정 */
+  background-color: #333; /* 배경색 설정 */
+  color: #fff; /* 글자색 설정 */
+  border-radius: 5px; /* 모서리 둥글게 설정 */
+  border: none; /* 테두리 제거 */
+  cursor: pointer; /* 마우스 오버 시 커서 변경 */
+}
+
+.post-details-container button.save-cancel-btn:hover {
+  background-color: #444; /* 마우스 오버 시 배경색 변경 */
+}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98cf2f2b13ff0ff4d97bcb644d6259a7, type: 3}
+  m_Name: "\uCC28\uB3CC\uB41C\uC7A5\uCC0C\uAC1C"
+  m_EditorClassIdentifier: 
+  Level: 0
+  Food: {fileID: 21300000, guid: 46573742a1e031743ba7ca316a20c558, type: 3}
+  Name: "\uCC28\uB3CC\uB41C\uC7A5\uCC0C\uAC1C"
+  Ingredient: "\uB450\uBD80,\uC591\uD30C,\uAC10\uC790,\uC560\uD638\uBC15, \uACE0\uCD94,
+    \uB41C\uC7A5, \uB9C8\uB298, \uC18C\uACE0\uAE30"
+  Process1: "\uAC10\uC790, \uC591\uD30C, \uB450\uBD80, \uC560\uD638\uBC15 \uC790\uB974\uAE30"
+  Process2: "\uC18C\uACE0\uAE30 \uC790\uB974\uAE30 "
+  Process3: "\uB41C\uC7A5 \uD55C\uC2A4\uD47C, \uAC10\uC790, \uC591\uD30C, \uD638\uBC15
+    \uB123\uAE30, \uC18C\uACE0\uAE30 \uB123\uAE30 "
+  Process4: "\uB053\uC774\uBA74\uC11C \uB9C8\uC9C0\uB9C9\uC5D0 \uB450\uBD80 \uC62C\uB9AC\uACE0
+    \uB9C8\uBB34\uB9AC "
+  Process5: 
+  Process6: 
+  Process7: 

@@ -1,0 +1,201 @@
+body {
+    background-color: #0A0E3B;
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    position: relative; 
+    background-color: #0A0E3B;
+    color: white;
+    border: 3px solid transparent;
+    text-align: center;
+}
+
+.frame {
+    position: absolute; 
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+<<<<<<< HEAD
+}
+
+
+.section {
+    margin-left: 10%;
+=======
+  }
+  
+  .top-right {
+    top: 20px;
+    right: 70px;
+    
+  }
+  
+  .section {
+    margin-left: 9.5%;
+>>>>>>> BEDev
+    margin-top: 8%;
+}
+
+.content-box {
+    width: 79.7vw; /* 너비 설정 */
+    height: 4vh; /* 높이 설정 */
+    background-color: #F8EFE6; /* 배경 색상 설정 */
+    display: flex; /* Flexbox 적용 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+
+footer {
+    position: relative; /* footer 내부의 절대 위치 설정을 위해 필요 */
+    background-color: #F8EFE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-frame-container {
+    width: 100%; /* 화면 너비에 맞춤 */
+    text-align: right; /* 이미지를 오른쪽에 정렬 */
+}
+
+.bottom-frame {
+    width: auto; /* 원래 이미지 크기를 유지 */
+    height: auto; /* 이미지 비율 유지 */
+}
+
+.diamond-button-frame-container {
+    position: relative;
+<<<<<<< HEAD
+    bottom: -22.4vh; 
+    left: 32%;
+=======
+    bottom: -30vh; 
+    left: 12vw;
+    margin-left: 290px;
+>>>>>>> BEDev
+    transform: translate(-50%, -50%);
+    width: 819.96px; /* 프레임의 너비 */
+    height: 353.96px; /* 프레임의 높이 */
+    background-image: url('../Assets/Images/GamedownloadFrame.png'); /* 프레임 이미지 경로 */
+    background-size: cover; /* 배경 이미지 크기 조정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* 다른 요소 위에 표시 */
+
+}
+.diamond-button-container {
+<<<<<<< HEAD
+    position: relative;
+    bottom: -16.5vh; 
+    left: 42.7%;
+=======
+    position: absolute;
+    bottom: -2vh; 
+    left: 44vw;
+>>>>>>> BEDev
+    transform: translate(-50%, -50%) rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+<<<<<<< HEAD
+    width: 150px; /* 버튼의 너비 */
+    height: 150px; /* 버튼의 높이 */
+    background-color: #7E7AF9; /* 버튼의 배경 색상 */
+    color: white; /* 텍스트 색상 */
+=======
+    width: 150px;
+    height: 150px;
+    color: white; 
+>>>>>>> BEDev
+    text-align: center;
+    line-height: 30px; /* 텍스트를 버튼 중앙으로 정렬 */
+    cursor: pointer;
+
+  }
+  
+  .diamond-button-container:hover {
+    background-color: #7E7A95; /* 호버 시 배경색 변경 */
+  }
+  
+  .diamond-button-text {
+    transform: rotate(-45deg); /* 텍스트를 다시 직선으로 회전 */
+    display: inline-block;
+    font-size: 15px; /* 텍스트 크기를 줄임 */
+
+<<<<<<< HEAD
+  }
+=======
+  }
+  .button-login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; 
+  }
+  
+  .login-container {
+    margin-right: 100px; 
+    width: 200px;
+    background-color: #7E7AF9;
+    border-radius: 5px;
+    padding: 40px;
+    z-index: 2; 
+  }
+
+.inputWithIcon input[type="text"],
+.inputWithIcon input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin: 3px 15px 5px 3px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i,
+.inputWithIcon input[type="password"]:focus + i {
+  color: #3d85c6;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container button {
+  background-color: #3d85c6;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 10px; /* 버튼 사이의 간격을 조정 */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:last-child {
+  margin-right: 0; /* 마지막 버튼의 오른쪽 마진 제거 */
+}
+>>>>>>> BEDev

@@ -1,0 +1,115 @@
+.game-intro-container {
+<<<<<<< HEAD
+    background-image: url('../Assets/Images/GameBackground.png'); /* Adjust the path as necessary */
+    background-color: #F8EFE6;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 48vh;
+  }
+  
+  .box-frame {
+    position: absolute;
+    top: 0.5vh;
+    left: 0.5vw;
+    width: 100px; 
+    height: auto;
+  }
+  
+=======
+  background-image: url('../Assets/Images/GameBackground.png');
+  background-color: #F8EFE6;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100vh;
+  cursor: pointer;
+  z-index: 2; /* Higher z-index to ensure navbar is clickable */
+
+}
+
+/* If box-frame uses a background image */
+.box-frame {
+  position: absolute;
+  top: 0.5vh;
+  left: 0.5vw;
+  width: 100px;
+  height: auto;
+  background-position: center; /* Center the background image */
+  background-size: contain; /* Use contain to ensure the image is fully visible */
+  background-repeat: no-repeat;
+}
+
+/* If content-frame-2 uses a background image */
+>>>>>>> BEDev
+.content-frame-2 {
+  position: absolute;
+  right: 0.5vw;
+  bottom: 0.5vh;
+  width: 100px; /* Adjust the size as necessary */
+  height: auto;
+<<<<<<< HEAD
+}
+=======
+  background-position: center; /* Center the background image */
+  background-size: contain; /* Use contain to ensure the image is fully visible */
+  background-repeat: no-repeat;
+}
+
+.game-intro-container h1 {
+  margin-top: -20px; 
+  transform: scale(0.8); 
+}
+
+.game-intro-container h2 {
+  margin-top: -20px;
+  color: #000;
+  margin-left: 15px;
+  background-color: rgba(248, 239, 230, 0.7); 
+  border-radius: 10px;
+  background-image: url('../Assets/Images/GameContent.png');
+  background-position: center; /* Centers the background image */
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat;
+}
+
+
+.game-intro-container p {
+  transition: opacity 0.5s ease;
+  color: #000;
+  font-size: 1.2rem;
+  font-family: "ChosunCentennial_ttf";
+  line-height: 1.6;
+}
+
+.game-intro-container:hover p {
+  opacity: 0.8;
+}
+.text-box {
+  background-color: rgba(248, 239, 230, 0.7); 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: 20px auto; 
+  width: 80%;
+  max-width: 600px;
+}
+
+.title {
+  padding:  30px;
+}
+
+.highlight {
+  font-size: 1.2em;
+  color: #5C5B7D; 
+  font-weight: bold;
+}
+>>>>>>> BEDev

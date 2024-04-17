@@ -1,0 +1,41 @@
+services:
+  frontend:
+   image: mjbae327/front:latest
+   container_name: front
+   ports:
+     - "3000:3000"
+   volumes:
+    - /etc/letsencrypt:/etc/letsencrypt
+   environment:
+     TZ: Asia/Seoul
+
+  backend:
+    image: mjbae327/michelin_de_hanyang:latest
+    container_name: michelin_de_hanyang
+    ports:
+      - "8080:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - /home/ubuntu/config/application.yml:/config/application.yml
+    environment:
+      - SPRING_CONFIG_LOCATION=file:/config/application.yml
+      - TZ=Asia/Seoul
+    networks:
+      - mynetwork
+
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - /home/ubuntu/jenkins/workspace/release/nginx.conf/nginx.conf:/etc/nginx/nginx.conf
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /home/ubuntu/game:/usr/share/nginx/html/game
+    ports:
+      - "443:443"
+    depends_on:
+      - backend
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
+    driver: bridge
