@@ -12,12 +12,9 @@
     "@types/node": "^16.18.91",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
-<<<<<<< HEAD
-=======
     "axios": "^1.6.8",
     "i18next": "^23.10.1",
     "js-cookie": "^3.0.5",
->>>>>>> BEDev
     "react": "^18.2.0",
     "react-cookie": "^7.1.0",
     "react-dom": "^18.2.0",

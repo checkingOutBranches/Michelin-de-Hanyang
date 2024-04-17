@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useCookies } from 'react-cookie'; // Import useCookies hook from react-cookie
@@ -209,15 +206,8 @@ const Community: React.FC = () => {
       </div>
     );
   }
->>>>>>> BEDev
 
-const Community = () => {
   return (
-<<<<<<< HEAD
-    <div>
-      <h1>커뮤니티ㄴ</h1>
-      <p>여기에 게임 가이드에 대한 내용이 들어갑니다.</p>
-=======
     <div className="game-guide-container">
       <h1>커뮤니티</h1>
       <div className="create-post-link" onClick={addPost}>글 작성</div>
@@ -231,7 +221,6 @@ const Community = () => {
           ))}
         </div>
       </div>
->>>>>>> BEDev
     </div>
   );
   

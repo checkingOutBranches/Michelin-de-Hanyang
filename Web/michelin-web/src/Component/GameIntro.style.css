@@ -1,26 +1,4 @@
 .game-intro-container {
-<<<<<<< HEAD
-    background-image: url('../Assets/Images/GameBackground.png'); /* Adjust the path as necessary */
-    background-color: #F8EFE6;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding: 20px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 48vh;
-  }
-  
-  .box-frame {
-    position: absolute;
-    top: 0.5vh;
-    left: 0.5vw;
-    width: 100px; 
-    height: auto;
-  }
-  
-=======
   background-image: url('../Assets/Images/GameBackground.png');
   background-color: #F8EFE6;
   background-size: cover; /* Ensures the image covers the container */
@@ -50,16 +28,12 @@
 }
 
 /* If content-frame-2 uses a background image */
->>>>>>> BEDev
 .content-frame-2 {
   position: absolute;
   right: 0.5vw;
   bottom: 0.5vh;
-  width: 100px; /* Adjust the size as necessary */
+  width: 100px;
   height: auto;
-<<<<<<< HEAD
-}
-=======
   background-position: center; /* Center the background image */
   background-size: contain; /* Use contain to ensure the image is fully visible */
   background-repeat: no-repeat;
@@ -112,4 +86,3 @@
   color: #5C5B7D; 
   font-weight: bold;
 }
->>>>>>> BEDev

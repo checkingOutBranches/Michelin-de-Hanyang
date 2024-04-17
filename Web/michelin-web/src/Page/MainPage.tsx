@@ -1,57 +1,3 @@
-<<<<<<< HEAD
-import React, { useState, useEffect } from 'react';
-import './MainPage.style.css'
-import FrameImage from '../Assets/Images/Frame1.png'
-import BottomFrame from '../Assets/Images/FrameBottom.png'
-import Frame4 from '../Assets/Images/Frame4.png'
-import NavBar from '../Component/NavBar';
-import { Routes, Route } from 'react-router-dom';
-import GameGuide from '../Component/GameGuide'; 
-import GameIntro from '../Component/GameIntro';
-import Community from '../Component/Community';
-
-
-
-const MainPage = () => {
-    const [content, setContent] = useState({ image: Frame4});
-
-
-    return (
-        <>
-            <div className="back">
-                <img src={FrameImage} alt="Frame" className="frame top-left"/> 
-
-                <section className='section'>
-                <NavBar setContent={setContent} />
-                    <div 
-                        className="content-box" 
-                        style={{ backgroundImage: `url(${content.image})` }}
-                    >
-                    </div>
-                </section>
-                <Routes>
-                    <Route path="/" element={<GameIntro />} />
-                    <Route path="/guides" element={<GameGuide />} />
-                    <Route path="/community" element={<Community />} />
-                </Routes>
-
-            </div>
-            <div className="diamond-button-frame-container">
-                <div className="diamond-button-container">
-                    <div className="diamond-button-text">게임 다운로드</div>
-                </div>
-            </div>
-
-            <div className="bottom-frame-container">
-                <img src={BottomFrame} alt="Frame" className="bottom-frame"/>
-            </div>
-
-            <footer className="footer">
-                <div>@Michelin de Hanyang</div>
-            </footer>
-        </>
-    );
-=======
 import React, { useState, FormEvent, useEffect } from "react";
 import "./MainPage.style.css";
 import FrameImage from "../Assets/Images/Frame1.png";
@@ -269,7 +215,6 @@ const MainPage = () => {
       </footer>
     </>
   );
->>>>>>> BEDev
 };
 
 export default MainPage;
