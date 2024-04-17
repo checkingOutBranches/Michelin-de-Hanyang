@@ -109,7 +109,7 @@
 
 ## 3.3 상점
 
-![상점 구매.gif](ReadmeAssets/상점 구매.gif)
+![상점 구매.gif](https://github.com/WookeyKim95/Michelin-de-Hanyang/blob/master/ReadmeAssets/%EC%83%81%EC%A0%90%20%EA%B5%AC%EB%A7%A4.gif?raw=true)
 
 - 상점 탭 간 자연스러운 전환을 위해 Corutine메서드와 Lerp 함수 사용
 - 물품 우클릭 시 바로 장바구니에 1개씩 아이템이 담기며, 좌클릭 시 아이템에 대한 상세 정보와 함께 수량을 정할 수 있는 팝업 UI가 나와, 장바구니에 아이템을 원하는 수량만큼 담아, 한번에 구매할 수 있음
