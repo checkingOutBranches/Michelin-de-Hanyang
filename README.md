@@ -43,7 +43,8 @@
 
 ---
 
-# 3. 주요 기능
+# 3. 게임 주요 기능
+
 
 ## 3.1 사냥터
 
@@ -127,16 +128,53 @@
 
 ---
 
-# 4. 기술 스택
+# 4. 웹 배포 주요 기능
+
+## 4.1 게임 소개
+
+![web_gameintro.gif](ReadmeAssets/web_gameintro.gif)
+- 인터랙티브 스토리텔링을 기반으로 한 RPG 게임이기 때문에, 웹 첫 페이지에 useState함수를 이용해, 
+- 챕터마다 대제목과 줄글의 내용들을 두어, onClick 함수를 통해 다음 페이지로 이동하게 구현
+
+## 4.2 게임 가이드
+
+![web_gameguide.gif](ReadmeAssets/web_gameguide.gif)
+
+- 게임 내의 플로우를 기준으로 간략하게 게임 조작법 및 가이드 제시
+    - 로그인
+    - 튜토리얼
+    - 메인 기능 3가지(주막, 사냥터, 장터)
+    - 로그아웃/종료
+
+## 4.3 커뮤니티
+![web_community.gif](ReadmeAssets/web_community.gif)
+
+- 게임 내의 유저들끼리 소통 할 수 있도록 간단한 CRUD를 구성해 게시글 및 댓글 작성 가능
+
+## 4.4 랭킹
+
+![web_ranking.gif](ReadmeAssets/web_ranking.gif)
+
+- 퀘스트마다의 칭호를 두어 유저들의 랭킹에 차등을 둔 후, 레벨에 따라 차등적으로 랭킹 순위 측정
+
+## 4.5 고객 지원
+
+![web_support.gif](ReadmeAssets/web_support.gif)
+
+- 자주 묻는 질문를 통해 질문들을 확인
+- 1:1 문의를 통해 이메일로 해당 게임에 대한 문의사항 전송
+
+
+# 5. 기술 스택
 
 ### Frontend
 
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Typescript-3776AB?style=for-the-badge&logo=Typescript&logoColor=white"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=Zustand&logoColor=white">
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Typescript-3776AB?style=for-the-badge&logo=Typescript&logoColor=white"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=Zustand&logoColor=white"> <img src="https://img.shields.io/badge/Css-1572B6?style=for-the-badge&logo=Css&logoColor=white">
 
 
 ### Client
 
-<img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=Unity&logoColor=black"> Dall-E, <img src="https://img.shields.io/badge/Aesprite-7D929E?style=for-the-badge&logo=Aesprite&logoColor=black">, IbisPaint
+<img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=Unity&logoColor=black"> <img src="https://img.shields.io/badge/Aesprite-7D929E?style=for-the-badge&logo=Aesprite&logoColor=black">
 
 ### Backend
 
@@ -149,13 +187,14 @@
 ### DevOps
 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=GitLab&logoColor=white"> <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=for-the-badge&logo=AWS EC2&logoColor=white"> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white">
+
 ### Communication
 
-figma, jira, notion, Mattermost
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=Mattermost&logoColor=white">
 
 ---
 
-# 5. 팀원 소개
+# 6. 팀원 소개
 
 |![성욱](https://avatars.githubusercontent.com/u/95511792)|![지윤](https://avatars.githubusercontent.com/u/94150712)|![도훈](https://avatars.githubusercontent.com/u/57519901)|![범수](https://avatars.githubusercontent.com/u/103927296)|![민지](https://avatars.githubusercontent.com/u/139304989)|![병현](https://avatars.githubusercontent.com/u/139294001 )|
 |:---:|:---:|:---:|:---:|:---:|:---:|
