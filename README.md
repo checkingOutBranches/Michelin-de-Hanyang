@@ -131,24 +131,24 @@
 
 ### Frontend
 
-React, Typescript, node.js, Zustand
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Typescript-3776AB?style=for-the-badge&logo=Typescript&logoColor=white"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=Zustand&logoColor=white">
+
 
 ### Client
 
-Unity, Dall-E, Aesprite, IbisPaint
+<img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=Unity&logoColor=black"> Dall-E, <img src="https://img.shields.io/badge/Aesprite-7D929E?style=for-the-badge&logo=Aesprite&logoColor=black">, IbisPaint
 
 ### Backend
 
-Java, Gradle, SpringBoot, Spring Security
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
 
 ### Database
 
-MongoDB
+<img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
 
 ### DevOps
 
-Ubuntu, GitLab, AWS EC2, Jenkins, Docker, NGINX
-
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=GitLab&logoColor=white"> <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=for-the-badge&logo=AWS EC2&logoColor=white"> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white">
 ### Communication
 
 figma, jira, notion, Mattermost
@@ -157,9 +157,7 @@ figma, jira, notion, Mattermost
 
 # 5. 팀원 소개
 
-- 김성욱(팀장/Client) [깃허브 바로가기](https://github.com/wookeykim95/)
-- 백지윤(부팀장/Client/Frontend) [깃허브 바로가기](https://github.com/1234jienf)
-- 김도훈(Client) [깃허브 바로가기](https://github.com/dohoon0122)
-- 김범수(Client) [깃허브 바로가기](https://github.com/Starbow-Break)
-- 배민지(Infra/Backend) [깃허브 바로가기](https://github.com/MJBae327)
-- 김병현(Backend) [깃허브 바로가기](https://github.com/byunghyunkim0)
+|![성욱](https://avatars.githubusercontent.com/u/95511792)|![지윤](https://avatars.githubusercontent.com/u/94150712)|![도훈](https://avatars.githubusercontent.com/u/57519901)|![범수](https://avatars.githubusercontent.com/u/103927296)|![민지](https://avatars.githubusercontent.com/u/139304989)|![병현](https://avatars.githubusercontent.com/u/139294001 )|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [김성욱](https://github.com/wookeykim95) <br> 팀장, Client  | [백지윤](https://github.com/1234jienf) <br> 부팀장,Client,Frontend | [김도훈](https://github.com/dohoon0122)  <br> Client | [김범수](https://github.com/Starbow-Break)  <br>  Client | [배민지](https://github.com/MJBae327) <br> Infra, Backend | [김병현](https://github.com/byunghyunkim0) <br> Backend | 
+
