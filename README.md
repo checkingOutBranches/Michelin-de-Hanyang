@@ -114,7 +114,7 @@
 - 상점 탭 간 자연스러운 전환을 위해 Corutine메서드와 Lerp 함수 사용
 - 물품 우클릭 시 바로 장바구니에 1개씩 아이템이 담기며, 좌클릭 시 아이템에 대한 상세 정보와 함께 수량을 정할 수 있는 팝업 UI가 나와, 장바구니에 아이템을 원하는 수량만큼 담아, 한번에 구매할 수 있음
 
-![상점 판매.gif](ReadmeAssets/상점 판매.gif)](https://github.com/WookeyKim95/Michelin-de-Hanyang/blob/master/ReadmeAssets/%EC%83%81%EC%A0%90%20%ED%8C%90%EB%A7%A4.gif?raw=true)
+![상점 판매.gif](https://github.com/WookeyKim95/Michelin-de-Hanyang/blob/master/ReadmeAssets/%EC%83%81%EC%A0%90%20%ED%8C%90%EB%A7%A4.gif?raw=true)
 
 - 판매 모드로 토글시 현재 인벤토리에 있는 아이템들이 표시되고, 마찬가지로 아이템 클릭시 장바구니에 판매할 아이템들을 담고 한번에 판매
 - 상세정보 UI는 IdragHandler를 사용하여 유저가 직접 드래그해 위치를 변경
