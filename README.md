@@ -1,6 +1,6 @@
 # 포팅메뉴얼
 
-[바로가기](https://lab.ssafy.com/s10-metaverse-game-sub2/S10P22A609/-/blob/master/exec/%ED%8F%AC%ED%8C%85%EB%A9%94%EB%89%B4%EC%96%BC.pdf)
+[바로가기](exec/%ED%8F%AC%ED%8C%85%EB%A9%94%EB%89%B4%EC%96%BC.pdf)
 
 # **1. 프로젝트 개요**
 
