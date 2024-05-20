@@ -194,9 +194,3 @@
 
 ---
 
-# 6. 팀원 소개
-
-|![성욱](https://avatars.githubusercontent.com/u/95511792)|![지윤](https://avatars.githubusercontent.com/u/94150712)|![도훈](https://avatars.githubusercontent.com/u/57519901)|![범수](https://avatars.githubusercontent.com/u/103927296)|![민지](https://avatars.githubusercontent.com/u/139304989)|![병현](https://avatars.githubusercontent.com/u/139294001 )|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| [김성욱](https://github.com/wookeykim95) <br> 팀장, Client  | [백지윤](https://github.com/1234jienf) <br> 부팀장,Client,Frontend | [김도훈](https://github.com/dohoon0122)  <br> Client | [김범수](https://github.com/Starbow-Break)  <br>  Client | [배민지](https://github.com/MJBae327) <br> Infra, Backend | [김병현](https://github.com/byunghyunkim0) <br> Backend | 
-
